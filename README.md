@@ -23,7 +23,7 @@ This portfolio website is designed to provide an overview of my professional bac
 ## Setup
 **Clone the repository:**
    ```bash
-   git clone - https://github.com/RMMagesh07/Portfolio
+   https://github.com/RMMagesh07/Portfolio.git
 
 
 
