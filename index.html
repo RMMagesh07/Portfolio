@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="shortcut icon" type="image/png" href="ic.png">
+        <link rel="stylesheet" href='./files/style.css'>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <style>
+            .intrest h3{
+                text-align: center;
+
+            }
+            .intrest span{
+                color: #0ef;
+            }
+            .info-box {
+                width: 350px;
+                height: 240px;
+                background-color: rgb(0, 0, 0);
+                border: 2px inset #0ef;
+                border-radius: 8px;
+                padding: 0px; /* Increase padding for better spacing */
+                box-sizing: border-box;
+                position: relative; /* Position relative for absolute positioning of h2 */
+                overflow: hidden;
+                display: inline-block;
+                margin-right: 25px;
+            }
+            
+            .info-box h2 {
+                color: #ffffff;
+                position: absolute;
+                top: -28px; /* Adjust top position as needed */
+                left: -35px; /* Adjust left position as needed */
+                font-size: 28px;
+                justify-content: left;
+            }
+            
+            .info-box p {
+                margin: 0;
+                text-align: justify;
+                position: absolute;
+                top: 34%;
+                left: 5%;
+                
+                width: 80%; /* Adjust width as needed */
+                color: #ffffff;
+                font-size: 14px;
+                line-height: 1.5;
+            }
+            
+        
+        .list-container {
+            max-width: 800px;
+           
+            margin: 50px auto;
+            background-color: #000000;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .horizontal-list {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .list-item {
+            width: 48%; /* 50% width with a small gap */
+            box-sizing: border-box;
+            padding: 10px;
+            background-color: #ffffff;
+            opacity: 1;
+            border-radius: 4px;
+           
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .list-item:hover {
+        
+        
+           
+            transform: translateY(-2px);
+            
+        }
+
+        .list-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #ffffff;
+            margin-bottom: 0;
+        }
+    </style>
+        
+    </head>
+    <body>
+        
+        <header class="header">
+            
+            <a href="https://www.linkedin.com/in/rm-magesh-575293255/" target="_blank" class="logo">Mari Magesh R</a>
+            <nav class="navbar" id="myLinks">
+                <a href="#Home" style="--i:1" class="active" >Home</a>
+                <a href="#About" style="--i:2">About</a>
+                <a href="#Skills" style="--i:3">Skills</a>
+                <a href="#passion" style="--i:3">Passion</a>
+                <a href="#Projects" style="--i:4">Projects</a>
+                <a href="#Contribution" style="--i:4">Contribution</a>
+                <a href="#intrest" style="--i:4">Interests</a>
+                <a href="#Contact" style="--i:5">Contact</a>
+            </nav>
+        </header>
+
+
+        <section class="home" id="Home">
+            <div class="home-content">
+                
+                <h3>Hello, It's Me</h3>
+                <h1 style="cursor: pointer;">MARI MAGESH R</h1>
+                <h4 style="--i:6">I'm a Engineering student who is<br>
+                    passionate in <span class="text"></span></h4>
+                    
+                    <div class="img">
+                        <img src="./img/profile.jpg" class="responsive">
+                    </div>
+
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/rm-magesh-575293255/"style="--i:7" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/call_me__mm?igsh=NHZ2bWJoMWpza3Fn"style="--i:8" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  
+                    <a href="https://github.com/RMMagesh07"style="--i:9" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:mari08magesh@gmail.com" target="_blank" style="--i:10"><i class="bx bx-mail-send"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/13Kuw-ClPE3UANGpRhF4x_chVt8IXqnNh/view?usp=sharing" style="--i:11" class="btn-box" target="_blank">Download Resume</a>&nbsp;&nbsp;
+                <a href="mailto:mari08magesh@gmail.com"  style="--i:11" class="btn-box1" target="_blank">Contact Me</a>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="about" id="About">
+                <div class="about-img">
+                    <img src="./img/profile1.jpg" class="abt-res">
+                </div>
+                <div class="about-text">
+                    <h2>About <span>Me</span></h2><br>
+                    <p>
+                        As a smart-working Computer Science Engineering student, specializing in web development, UI/UX design, and mobile app development, I am proficient in front-end technologies and design tools like Figma. I am dedicated to crafting visually appealing and user-friendly digital solutions. Recognized as a good team player, I bring adaptability and collaboration to project environments, ensuring effective contributions and positive teamwork.  I am currently seeking roles where I can utilize my knowledge and skill.<br>
+                        <br>
+                        <a href="https://drive.google.com/file/d/13Kuw-ClPE3UANGpRhF4x_chVt8IXqnNh/view?usp=sharing" style="--i:11" class="abtbtn-box" target="_blank">Download Resume</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="Skills">
+            <h1 class="subtitle">My <span>Skills</span></h1>
+            <div class="sec">
+                <div class="container1">
+                    <h1 class="heading1">Technical Skills</h1>
+                    <div class="Technical-bars">
+
+                        <div class="bar"><i class='bx bxl-html5'style="color: #c9332e;"></i>
+                            <div class="info">
+                                <span>HTML <span class="addhtml"></span></span>
+                            </div>
+                            <div class="progress-line html">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="bar"><i class='bx bxl-css3' style="color: #147bbc;"></i>
+                            <div class="info">
+                                <span>CSS <span class="addcss"></span></span>
+                            </div>
+                            <div class="progress-line css">
+                                <span></span>
+                            </div>
+                        </div>
+                     
+                        <div class="bar"><i class='bx bxl-c-plus-plus'style="color: #3db2fc;"></i>
+                            <div class="info">
+                                <span>C Programming<span class="addc"></span></span>
+                            </div>
+                            <div class="progress-line cpls">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="bar"><i class='bx bxl-flutter' style="color: #1591cf;"></i>
+                            <div class="info">
+                                <span>Flutter<span class="addjava"></span></span>
+                            </div>
+                            <div class="progress-line java">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="bar"><i class='bx bxl-python' style="color: #b0bc1e;"></i>
+                            <div class="info">
+                                <span>Python(Basic)<span class="addpy"></span></span>
+                            </div>
+                            <div class="progress-line python">
+                                <span></span>
+                            </div>
+                        </div>
+
+                
+
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <h1 class="heading1">Professional Skills</h1>
+                    <div class="radial-bars">
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="80" r="80" ></circle>
+                            </svg>
+                            <div class="percentage">75%</div>
+                            <div class="text">Problem Solving</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-2" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">70%</div>
+                            <div class="text">Creativity</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-3" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">80%</div>
+                            <div class="text">Analytical skill</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-4" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">Teamwork</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section id="Services">
+            <div class="project">
+                <div class="container" id="passion">
+                    <h1 class="sub-title">My <span>Passion Zone </span></h1>
+                    <div class="prj-list">
+                        <div>
+                            <i class='bx bx-code' style="color: #00eeff;"></i>
+                            <h2>Web Development</h2>
+                            <p>Passionate about planning, creating, and coding internet sites with a modern and artful design approach. Proficient in translating concepts into visually appealing and functional web pages, utilizing contemporary design principles to enhance.</p>
+                            
+                        </div>
+                        <div>
+                            <i class='bx bxl-figma' style="color: #00eeff;"></i>
+                            <h2>UI/UX <br> Design</h2>
+                            <p>Enthusiastic about UI/UX designing, adept at leveraging Figma to create streamlined and visually pleasing digital interfaces. Committed to delivering designs that seamlessly merge aesthetics and user experience, with a focus on creating meaningful and delightful interactions.</p>
+                            
+                        </div>
+                        <div>
+                            <i class='bx bxl-android' style="color: #00eeff;"></i>
+                            <h2>App Development</h2>
+                            <p>
+                                I'm curious about making phone apps, and I'm good at using Flutter and Android Studio. I like to create apps that look nice and work well, focusing on making them easy and enjoyable for people to use.</p>
+                            
+                        </div>
+                        <div>
+                            <i class='bx bx-edit' style="color: #00eeff;"></i>
+                            <h2>Design Enthusiast </h2>
+                            <p>Passionate about designing and editing, I find joy and interest in crafting visually appealing solutions. Embracing creativity, I continuously explore new avenues to enhance my skills and bring innovative designs to life, turning ideas into captivating visual experiences.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Projects">
+            <div id="portfolio" class="services">
+                <div class="main-text" id="serv">
+                    <h2>My <span>Projects</span></h2>
+                    <div class="serv-container">
+                        <div class="row">
+                            <img src="./img/pro1.png">
+                            <div class="layer">
+                                <h5>Do-Done Ui_Design</h5>
+                                <p>Designed and developed an Do-Done(Task Management App)user interface using Figma,demonstrating a keen focus on user-centered design principles.</p>
+
+                                <a href="https://github.com/RMMagesh07/Do-Done-Task-Management-Mobile-App-UiDesign.git" target="_blank"><i class='bx bx-link' style="color: aliceblue;"></i></a>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="./img/pro2.jpg">
+                            <div class="layer">
+                                <h5>Ecommerce Website</h5>
+                                <p>This project is a fully functional ecommerce website built with Html css and Javascript.</p>
+
+                                <a href="https://github.com/RMMagesh07/ecommerce-website.git" target="_blank"><i class='bx bx-link' style="color: aliceblue;"></i></a>
+                                
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="./img/pro3.jpg">
+                            <div class="layer">
+                                <h5>Mobile Application</h5>
+                                <p> I leverage my front-end development skills to create a visually appealing and responsive user interface for our staff task management app.</p>
+
+                                <a href="https://github.com/RMMagesh07/Staff-Tasks-Management-App-using-AI.git" target="_blank"><i class='bx bx-link' style="color: aliceblue;"></i></a>
+                                
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="./img/pro4.jpg">
+                            <div class="layer">
+                                <h5>Sign Language Translator</h5>
+                                <p>The Sign Language Translator providing a communication system that converts sign language gestures into text.</p>
+
+                                <a href="https://github.com/RMMagesh07/SignLanguage-Translator-Using-ML.git" target="_blank"><i class='bx bx-link' style="color: aliceblue;"></i></a>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     
+       
+            <div class="main-text" id="Contribution">
+            <h2>My <span>Contribution</span></h2>
+        <div class="list-container">
+            <div class="horizontal-list">
+                <div class="list-item">
+                    <img src="img/py.jpg" alt="Image 1">
+                    <h3 style="color: #383a3b;">Basic of Python Internship</h3><br>
+                    <h6 style="color: #383a3b; width: 100px;">by admin oct 21, 2023</h6><br>
+                    <p style="color: #2a2a2b;">I completed a 10-day internship on the Basics of Python at DotCom Infoway in Madurai. During this immersive experience, I delved into  Python framework, gaining valuable insights. Subsequently, I applied my newfound knowledge to work on practically.</p>
+                </div>
+        
+                <div class="list-item">
+                    <img src="img/tcs.png" alt="Image 2">
+                    <h3 style="color: #383a3b;">TCS NQT exam attended in April 2023.</h3><br>
+                    <h6 style="color: #383a3b; width: 100px;">by admin Apr 25, 2023 </h6><br>
+                    <p style="color: #2a2a2b;">I have attended the TCS National Qulaifier Test conducted by the Tata Consultency Services company where I have attended and scored aoverall (64.77%) in the exam.</p>
+                </div>
+            </div><br><br>
+
+            <div class="intrest">
+                <h3>User
+                    I successfully completed the above Events on My<span> Academic period Time.</span> </h3></div>
+                </div>
+        
+            <!-- Add more horizontal lists as needed -->
+        
+        </div>
+        
+<!-- Add this after the "Projects" section -->
+<div class="main-text" id="intrest">
+    <h2>My <span>Interest</span></h2> 
+   
+<marquee class intrest="slide" direction="left">
+    <div class="info-box">
+        <h2>Editing</h2><br><br>
+        <p>
+            I enjoy editing videos and photos, using my skills<br> to create visually engaging and compelling content. <br>Transforming ideas into captivating stories  <br>is what excites me in this field.</p>
+    </div>
+    <div class="info-box">
+                <h2>Travelling</h2>
+                <br><br>
+                <p>
+                    Exploring new destinations is my source of joy,as <br>I immerse myself in the wonders of different cultures<br> and landscapes. The thrill of the journey,combined <br>with the excitement of discovering unfamiliar<br>places, invigorates my passion for exploration. </p>
+    </div>
+    <div class="info-box">
+        <h2>Gaming</h2>
+        <br><br>
+        <p>i am enjoy for both playing outside and video games.<br>I love running around and being social outdoors, and <br> I also have a great time playing video games with <br> different challenges.</p>
+    </div>
+    <div class="info-box">
+        <h2>Advanced technologies</h2>
+        <br><br>
+        <p>I have a keen interest in staying updated on the<br>latest advancements in technology. I am l committed <br>to continuous earning, I always seeking<br>opportunities l to expand my knowledge and I skill<br>set in the rapidly evolving landscape of Modern <br>technology.</p>
+    </div>
+    <div class="info-box">
+        <h2>Social Media</h2>
+        <br><br>
+        <p>I like using social media to connect with people<br>and share interesting content.I'm good at<br> managing accounts, creating engaging posts and<br>keeping up with what's popular. I enjoy being <br>part of the dynamic world of social media.</p>
+    </div>
+</div>
+    
+  </marquee>
+  <br>
+  <br><div class="intrest">
+  <h3>During my free time,I <span>Engage in Activities</span> that bring Me Joy and Fulfillment. </h3></div>
+  </div>
+  </body>
+
+
+      
+
+
+        <section class="contacts" id="Contact">
+            <div class="contact-text">
+                <h2>Contact <span>Me</span></h2>
+                <h4>Let's Work Together</h4>
+                <div class="contact-list">
+                    <li> <i class='bx bxs-send'></i> mari08magesh@gmail.com</li>
+                    <li><i class="bx bxs-phone-call" ></i>+91 8825677197</li>
+                </div>
+                <div class="contact-icons">
+                    <a href="https://github.com/RMMagesh07" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/call_me__mm?igsh=NHZ2bWJoMWpza3Fn" target="_blank"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rm-magesh-575293255/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="mailto:mari08magesh@gmail.com" target="_blank"><i class="bx bx-mail-send"></i></a>
+                </div>
+            </div>
+            
+        </section>
+
+        
+
+        
+  
+
+        
+        
+        <div class="last-text">
+            <p>Copyright © 2024 <a  style="color: #0ef;"> Mari Magesh</a> All Rights Reserved.</p>
+        </div>
+        <a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+
+        <script src="./files/script.js"></script>
+        <script src="contact.js"></script>
+
+
+    </body>  
+</html>
+
