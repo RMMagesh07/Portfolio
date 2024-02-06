@@ -99,6 +99,10 @@
             color: #ffffff;
             margin-bottom: 0;
         }
+
+    
+            
+        
     </style>
         
     </head>
@@ -436,26 +440,46 @@
                     <a href="https://www.linkedin.com/in/rm-magesh-575293255/" target="_blank"><i class="bx bxl-linkedin"></i></a>
                     <a href="mailto:mari08magesh@gmail.com" target="_blank"><i class="bx bx-mail-send"></i></a>
                 </div>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
             </div>
             
-        </section>
-
-        
-
-        
-  
-
-        
-        
+        </section><br><br><br><br>
         <div class="last-text">
             <p>Copyright © 2024 <a  style="color: #0ef;"> Mari Magesh</a> All Rights Reserved.</p>
         </div>
         <a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
 
         <script src="./files/script.js"></script>
-        <script src="contact.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx5Bf7KplgWusNVS5qZwwl9NXELj_TlKE78a8hZ0axRYSJa4B06_GJxVYMfRGKi6u4L/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    
 
 
     </body>  
 </html>
-
